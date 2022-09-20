@@ -278,7 +278,7 @@
 
 
 (function () {
-  // 1.实例化对
+  // 1.实例化对https://github.com/HAHA-debug-psg/haha-debug-psg.github.io/blob/main/js/index.js
 
   var myChart = echarts.init(document.getElementById('spanb'));
   // 2.指定配置项和数据
@@ -292,7 +292,7 @@
     },
     series: [
       {
-        name: 'Access From',
+        name: '年龄组成',
         type: 'pie',
         radius: ['40%', '70%'],
         avoidLabelOverlap: false,
@@ -526,7 +526,7 @@
     },
     series: [
       {
-        name: '年龄占比',
+        name: '残疾类型占比',
         type: 'pie',
         radius: '50%',
         data: [
